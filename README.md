@@ -4,4 +4,4 @@
 해당 노트는 obsidian으로 작성되었습니다. 
 ## 자료 내용
 
-+ <a href="https://github.com/yuchem2/stack-learning/tree/main/JavaScript">JavaScript</a>: <a href="https://developer.mozilla.org/en-US/">mdn web docs</a>를 참고해 작성
++ <a href="https://github.com/yuchem2/stack-learning/tree/main/JavaScript">JavaScript</a>
