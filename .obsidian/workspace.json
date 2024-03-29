@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/자바스크립트란.md",
+                "file": "JavaScript/JS Grammer and types.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/자바스크립트란.md",
+                "file": "JavaScript/JS Grammer and types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/자바스크립트란.md",
+                "file": "JavaScript/JS Grammer and types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/자바스크립트란.md"
+                "file": "JavaScript/JS Grammer and types.md"
               }
             }
           }
@@ -156,9 +156,10 @@
   },
   "active": "1d7dc3c4d79c1d5e",
   "lastOpenFiles": [
-    "JavaScript/JavaScript Engine.md",
     "JavaScript/자바스크립트란.md",
-    "LICENSE.md",
-    "README.md"
+    "JavaScript/JavaScript Engine.md",
+    "JavaScript/JS Grammer and types.md",
+    "README.md",
+    "LICENSE.md"
   ]
 }
