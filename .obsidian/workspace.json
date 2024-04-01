@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/JS Grammer and types.md",
+                "file": "JavaScript/Loops and iteration.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/JS Grammer and types.md",
+                "file": "JavaScript/Loops and iteration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/JS Grammer and types.md",
+                "file": "JavaScript/Loops and iteration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/JS Grammer and types.md"
+                "file": "JavaScript/Loops and iteration.md"
               }
             }
           }
@@ -156,8 +156,10 @@
   },
   "active": "1d7dc3c4d79c1d5e",
   "lastOpenFiles": [
-    "JavaScript/자바스크립트란.md",
+    "JavaScript/Control flow and error handling.md",
+    "JavaScript/Loops and iteration.md",
     "JavaScript/JavaScript Engine.md",
+    "JavaScript/자바스크립트란.md",
     "JavaScript/JS Grammer and types.md",
     "README.md",
     "LICENSE.md"

@@ -114,3 +114,125 @@ console.log(MY_ARRAY); // ['HTML', 'CSS', 'JAVASCRIPT'];
 + `Symbol`: 인스턴스가 고유하고 불변인 데이터
 + `Object`
 ### 데이터 타입 변환
+JS는 동적으로 데이터 타입이 지정되는 언어입니다. 실행 중에 필요에 따라 데이터 타입이 자동으로 변환되고 결정됩니다. 
+#### 숫자와 '+'
+숫자 및 문자열 값을 포함하는 표현식에서 `+`는 숫자를 문자열로 변환합니다.
+```javascript
+x = "The answer is " + 42; // "The answer is 42"
+y = 42 + " is the answer"; // "42 is the answer"
+z = "37" + 7; // "377"
+```
+#### 문자열을 숫자로
+숫자를 나타내는 값이 문자열로 있는 경우 변환하는 방법은 다음과 같습니다.
++ `parseInt()`: 정수만 반환
++ `parseFloat()`: 실수로 반환
+`parseInt()`를 사용할 때 두 번째 인자를 넣게 되면 해당 값을 기수로 하여 반환할 수 있다.
+```Javascript
+parseInt("101", 2); // 5
+```
+다른 방법으로는 다음과 같이 `+`를 이용할 수 있습니다. 
+```Javascript
+"1.1" + "1.1" // '1.11.1'
+(+"1.1") + (+"1.1"); // 2.2
+// Note: the parentheses are added for clarity, not required.
+```
+## Literals
+JS의 값을 나타냅니다. 문자 그대로 스크립트에 제공하는 변수가 아닌 고정된 값입니다. 
+### Array Literals
+0개 이상의 표현식 목록으로, 각 표현식은 대괄호(`[]`)로 묶인 배열 요소를 나타냅니다. 
+
+배열 리터럴은 평가될 때마다 *새 배열 개체*를 만듭니다.
+
+```javascript
+const coffees = ["French Roast", "Colombian", "Kona"];
+let fish = ["Lion", , "Angel"];
+var myList = ["home", , "school", ];
+```
+### Boolean Literals
+`true`와 `false` 두 개의 값을 가진다.
+### Numeric Literals
+JS 숫자 리터럴은 여러 진법의 정수 리터럴과 10진수의 부동 소수점 리터럴을 포함합니다.
+#### Interger literals
+`int`와 `BigInt` 리터럴은 10, 16, 8, 2진수로 표현될 수 있습니다.
++ 10진수: `0`으로 시작하지 않는 숫자열
++ 8진수: `0`으로 시작하거나 `0o(0O)`으로 시작하는 숫자열
++ 16진수: `0x(0X)`로 시작하는 숫자열 (대소문자 구분x)
++ 2진수: `0b(0B)`로 시작하는 숫자열
++ `BigInt`: `n`으로 끝나는 숫자열. 위 모든 진수 표현이 가능하지만 `0`으로 시작하는 8진수 구문은 허용되지 않습니다
+```Javascript
+0, 117, 123456789123456789n             (decimal, base 10)
+015, 0001, 0o777777777777n              (octal, base 8)
+0x1123, 0x00111, 0x123456789ABCDEFn     (hexadecimal, "hex" or base 16)
+0b11, 0b0011, 0b11101001010101010101n   (binary, base 2)
+```
+### Floating-point Literals
+다음과 같은 요소로 구성될 수 있습니다.
++ 부호 없는 10진수,
++ 소수점(`.`)
++ 분수
++ 지수
+
+지수부는 `e`나 `E` 다음에 오며 부호가 있는 정수입니다. 부동소수점 리터럴은 적어도 숫자 하나와 소수점 혹은 `e(E)`가 있어야 합니다
+```
+[digits].[digits][(E|e)[(+|-)]digits]
+```
+### Object literals
+객체 리터럴은 중괄호(`{}`)로 묶인 0개 이상의 객체의 속성 명과 관련 값 쌍 목록입니다.
+```ad-caution
+명령문 시작에 객체 리터럴을 사용하는 경우 `{`가 블록의 시작으로 해석되기 때문에 오류를 유발하거나 의도한 대로 동작하지 않을 수 있습니다.
+```
+
+```javascript
+var car = { manyCars: { a: "Saab", b: "Jeep" }, 7: "Mazda" };
+
+console.log(car.manyCars.b); // Jeep
+console.log(car[7]); // Mazda
+```
+#### Enhanced Object Literals
+ES2015에서 객체 리터럴은 구성에서 프로토타입 설정, `foo: foo` 할당을 위한 단축 표기, 메서드 정의, `super` 클래스 호출 및 식으로 동적인 속성명 계산을 지원하기 위해 확장되었습니다
+
+이에 따라 객체 리터럴이 클래스 선언에 더 가까워지고, 객체 기반 설계가 편해졌습니다.
+```Javascript
+var obj = {
+  // __proto__
+  __proto__: theProtoObj,
+  // ‘handler: handler’의 단축 표기
+  handler,
+  // Methods
+  toString() {
+    // Super calls
+    return "d " + super.toString();
+  },
+  // Computed (dynamic) property names
+  ["prop_" + (() => 42)()]: 42,
+};
+```
+### RegExp Literals
+`/` 사이에 감싸인 패턴입니다.
+```Javascript
+var re = /ab+c/;
+```
+### String Literals
+큰 따음표(`"`) 혹은 작은 따음표(`'`)로 묶인 0개 이상의 문자입니다. 
+꼭 `String` 객체를 사용할 필요가 없는 경우 문자열 리터럴을 사용해야 합니다.
+
+문자열 리터럴은 `String` 객체의 모든 메서드를 호출할 수 있습니다. JS는 자동으로 문자열 리터럴을 임시 문자열 객체로 변환, 메서드를 호출하고 나서 임시 문자열 객체를 폐기합니다. 
+
+템플릿 리터럴도 사용할 수 있습니다. 템플릿 리터럴은 `(``)`를 이용해 감싸서 사용합니다. 문자열 구성을 위한 구문으로, 다음과 같이 사용할 수 있습니다.
+```javascript
+// 기본적인 문자열 리터럴 생성
+`In JavaScript '\n' is a line-feed.`;
+
+// 여러 줄 문자열
+`In JavaScript, template strings can run
+ over multiple lines, but double and single
+ quoted strings cannot.`;
+
+// 문자열 삽입
+var name = "Bob",
+  time = "today";
+`Hello ${name}, how are you ${time}?`;
+```
+
+## 출처
++ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types
