@@ -5,3 +5,4 @@
 4. [Control flow and error handling](Control%20flow%20and%20error%20handling.md)
 5. [Loops and iteration](Loops%20and%20iteration.md)
 6. [Functions](Functions.md)
+7. [Expressions and operators](Expressions%20and%20operators.md)

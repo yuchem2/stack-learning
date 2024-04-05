@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "JavaScript/Expressions and operators.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "JavaScript/Expressions and operators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "JavaScript/Expressions and operators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,11 +132,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "JavaScript/Expressions and operators.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -155,13 +156,14 @@
   },
   "active": "5f56d3b0b3aa70c8",
   "lastOpenFiles": [
-    "JavaScript/README.md",
     "JavaScript/자바스크립트란.md",
+    "JavaScript/README.md",
+    "JavaScript/Expressions and operators.md",
+    "README.md",
     "JavaScript/Functions.md",
     "JavaScript/Control flow and error handling.md",
     "JavaScript/Grammer and types.md",
     "JavaScript/Loops and iteration.md",
-    "README.md",
     "LICENSE.md",
     "JavaScript/Untitled",
     "2주차 C.pdf",
