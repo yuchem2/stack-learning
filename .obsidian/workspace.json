@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Functions.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/Functions.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/Functions.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/Functions.md"
+                "file": "README.md"
               }
             }
           }
@@ -155,11 +155,11 @@
   },
   "active": "5f56d3b0b3aa70c8",
   "lastOpenFiles": [
-    "JavaScript/Control flow and error handling.md",
-    "JavaScript/Functions.md",
     "JavaScript/README.md",
-    "JavaScript/Grammer and types.md",
     "JavaScript/자바스크립트란.md",
+    "JavaScript/Functions.md",
+    "JavaScript/Control flow and error handling.md",
+    "JavaScript/Grammer and types.md",
     "JavaScript/Loops and iteration.md",
     "README.md",
     "LICENSE.md",
