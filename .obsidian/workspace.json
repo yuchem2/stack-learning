@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/자바스크립트란.md",
+                "file": "JavaScript/Functions.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -26,15 +26,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Loops and iteration.md",
+                "file": "JavaScript/README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/Loops and iteration.md",
+                "file": "JavaScript/Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/Loops and iteration.md",
+                "file": "JavaScript/Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/Loops and iteration.md"
+                "file": "JavaScript/Functions.md"
               }
             }
           }
@@ -154,14 +153,18 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "1d7dc3c4d79c1d5e",
+  "active": "5f56d3b0b3aa70c8",
   "lastOpenFiles": [
     "JavaScript/Control flow and error handling.md",
-    "JavaScript/Loops and iteration.md",
-    "JavaScript/JavaScript Engine.md",
+    "JavaScript/Functions.md",
+    "JavaScript/README.md",
+    "JavaScript/Grammer and types.md",
     "JavaScript/자바스크립트란.md",
-    "JavaScript/JS Grammer and types.md",
+    "JavaScript/Loops and iteration.md",
     "README.md",
-    "LICENSE.md"
+    "LICENSE.md",
+    "JavaScript/Untitled",
+    "2주차 C.pdf",
+    "JavaScript/JavaScript Engine.md"
   ]
 }
